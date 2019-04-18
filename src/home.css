@@ -1,18 +1,19 @@
-.am-flexbox-item {
-  width: 100%;
-}
-.tar {
-    position: fixed;
+.am-tab-bar-bar {
+    position:relative;
+    position: fixed !important;
     box-sizing: border-box;
     height: 50px;
     border-top: 1PX solid #ddd;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
     width: 100%;
     display: flex;
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     -webkit-transition-property: height bottom;
     transition-property: height bottom;
-    z-index: !important;
+    z-index: 100;
     justify-content: space-around;
     align-items: center;
     bottom: 0;
